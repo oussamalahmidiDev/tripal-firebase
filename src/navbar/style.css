@@ -1,0 +1,154 @@
+.main_navbar {
+      display: flex;
+      padding: 10px;
+      align-items: center;
+      /* background: yellow; */
+      box-shadow: -4px -11px 20px;
+}
+
+ul.nav-items {
+      display: flex;
+      margin-left: 30px;
+  }
+
+  .nav-item:hover {
+      color: #CC4E4E;
+  }
+
+  li.nav-item {
+      margin-right: 30px;
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+  }
+  i.material-icons.item-icon {
+      margin-right: 10px;
+  }
+
+  ul.nav-items.right-end {
+      margin-left: auto;
+      display: flex;
+      align-items: center;
+  }
+
+  .nav-item {
+      margin-right: 20px;
+      font-weight: 500;
+  }
+  button.nav-item.btn-sign_up {
+      border: 3px black solid;
+      padding: 10px 20px;
+      font-size: 12pt;
+      font-weight: bold;
+      border-radius: 90px;
+      margin: 0;
+  }
+
+  button.nav-item.btn-sign_up:hover {
+      border: 3px black solid;
+      padding: 10px 20px;
+      font-size: 12pt;
+      font-weight: 800;
+      border-radius: 90px;
+      margin: 0;
+      background: black;
+      color: #fff;
+  }
+
+  .modal {
+    right: 5px;
+    top: 15px;
+    position: fixed;
+    margin-right: 10px;
+    z-index: 100;
+    width: 300px;
+    padding: 25px;
+    background: white;
+    box-shadow: 3px 3px 17px #00000036;
+    border-radius: 7px;
+}
+
+.modal-top {
+    margin-bottom: 20px;
+}
+
+.modal-title {
+    font-size: 16pt;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+form.form-modal {
+    display: flex;
+    flex-direction: column;
+}
+
+img.avatar-img {
+    height: 45px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+.avatar-name {
+    font-weight: bold;
+}
+.avatar-settings {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+input.input-control {
+    margin-bottom: 15px;
+    font-size: 12pt;
+    padding: 10px;
+    font-weight: 600;
+    border: 1px #0000004d solid;
+    border-radius: 5px;
+    border: none;
+    background: #eee;
+}
+
+input.input-control.input-inline {
+    width: 75px;
+}
+input.input-control.input-inline:not(:last-child) {
+    width: 100px;
+    margin-right: 6px;
+}
+div#birth_inp {
+    display: flex;
+    /* flex-flow: row wrap; */
+}
+
+button.form-submit {
+    padding: 15px;
+    font-size: 12pt;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 90px;
+    border: none;
+    background: #CC4E4E;
+    color: white;
+}
+.overlay {
+  position: fixed; /* Sit on top of the page content */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0; 
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 90; /* Specify a stack order in case you're using a different order for other elements */
+}
+
+.search-inline {
+    padding: 12px 15px;
+    width: 30vw;
+    background: #eee;
+    border: none;
+    border-radius: 5px;
+    font-size: 11pt;
+    font-weight: 700;
+    color: #5f5f5f;
+}
+form.inline-form-search {
+    margin-left: 50px;
+}

@@ -1,0 +1,49 @@
+.nearme-container {
+      padding: 6vw;
+  }
+  .fav_places_container {
+      margin-bottom: 100px;
+  }
+  .section-header {
+      font-size: 24pt;
+      font-weight: 900;
+      margin-bottom: 15px;
+  }
+  hr.header-sep {
+      width: 10vw;
+      height: 5px;
+      background: #000;
+      margin-bottom: 50px;
+  }
+  .section-places {
+      display: grid;
+      grid-template-columns: repeat(auto-fill,minmax(90px,20fr));
+      grid-gap: 18px;
+  }
+
+  .place-icon {
+      display: flex;
+      flex-direction: column;
+      background: #dedede;
+      width: 90px;
+      height: 90px;
+      padding: 5px;
+      margin: 10px;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      border-radius: 7px;
+      color: #FFF;
+  }
+
+  .place-img {
+      font-size: 28pt;
+      /* opacity: 0.6; */
+  }
+  .place-text {
+      margin-top: 10px;
+      font-size: 10pt;
+      font-weight: bold;
+      /* opacity: 0.6; */
+  }
+
